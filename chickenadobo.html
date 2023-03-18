@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Chicken Adobo</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="food.css">
+        <link rel="stylesheet" href="responsive.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <a href="index.html"><img src="pic/logo.png" alt="Logo" class="logo"></a>
+            <div class="navbar-buttons">
+                <a href="index.html" class="navbar-button">Home</a>
+                <a href="login.html" class="navbar-button">My Menu Plan</a>
+            </div>
+        </nav>
+        <div class="bg">
+            <img src="pic/chicken adobo.jpg" alt="img">
+        </div>
+        <div>
+            <h1 class="style">
+                Chicken Adobo
+                <button id="like-button"><img src="pic/—Pngtree—vector like icon_4013523.png" alt="Like"></button>
+                <button id="dislike-button"><img src="pic/—Pngtree—dislike vector icon_4017390.png" alt="Dislike"></button>
+                <div class="rating">
+                    <span class="star" data-value="1">&#9733;</span>
+                    <span class="star" data-value="2">&#9733;</span>
+                    <span class="star" data-value="3">&#9733;</span>
+                    <span class="star" data-value="4">&#9733;</span>
+                    <span class="star" data-value="5">&#9733;</span>
+                  </div>
+                  <input type="hidden" id="rating" name="rating" value="">
+            </h1>
+            <p class="p">Savory | Tangy | Tender | Flavorful | Filipino</p>
+            <button id="add-button">Add to My Menu Plan</button>
+        </div>
+        <div id="recipe">
+            <h2>Ingredients:</h2>
+            <ul>
+                <li>2 lbs chicken thighs or legs</li>
+                <li>1/2 cup soy sauce</li>
+                <li>1/2 cup vinegar</li>
+                <li>1/4 cup brown sugar</li>
+                <li>6 cloves garlic, minced</li>
+                <li>1 bay leaf</li>
+                <li>1/2 tsp black pepper</li>
+                <li>1/2 cup water</li>
+            </ul>
+            <hr>
+            <h2>Procedures:</h2>
+            <ol>
+                <li>In a large bowl, combine the soy sauce, vinegar, brown sugar, garlic, bay leaf, and black pepper. Mix well.</li>
+                <li>Add the chicken to the bowl and toss to coat well.</li>
+                <li>Cover the bowl with plastic wrap and marinate the chicken in the fridge for at least 30 minutes or overnight.</li>
+                <li>In a large pot or Dutch oven, heat the chicken and marinade over medium heat.</li>
+                <li>Once boiling, reduce the heat to low and let it simmer for 30-45 minutes or until the chicken is cooked through and tender.</li>
+                <li>Add 1/2 cup water and continue to simmer for another 10 minutes to let the sauce thicken.</li>
+                <li>Remove the bay leaf and serve hot with steamed rice.</li>
+            </ol>
+        </div>
+        <div>
+            <button id="download-button">Download PDF</button>
+        </div>
+        <form>
+            <label for="comment" class="size">Leave a comment:</label>
+            <textarea id="comment" name="comment" placeholder="Enter your comment here..."></textarea>
+            <button type="submit" id="submit">Submit</button>
+          </form>
+        <footer class="footer">
+            <div class="footer-content">
+                <p>&copy; My Cooking Book Philippines - All rights reserved.</p>
+                <ul class="footer-links">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

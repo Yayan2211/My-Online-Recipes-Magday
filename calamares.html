@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Calamares</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="food.css">
+        <link rel="stylesheet" href="responsive.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <a href="index.html"><img src="pic/logo.png" alt="Logo" class="logo"></a>
+            <div class="navbar-buttons">
+                <a href="index.html" class="navbar-button">Home</a>
+                <a href="login.html" class="navbar-button">My Menu Plan</a>
+            </div>
+        </nav>
+        <div class="bg">
+            <img src="pic/calamares.jpg" alt="img">
+        </div>
+        <div>
+            <h1 class="style">
+                Calamares
+                <button id="like-button"><img src="pic/—Pngtree—vector like icon_4013523.png" alt="Like"></button>
+                <button id="dislike-button"><img src="pic/—Pngtree—dislike vector icon_4017390.png" alt="Dislike"></button>
+                <div class="rating">
+                    <span class="star" data-value="1">&#9733;</span>
+                    <span class="star" data-value="2">&#9733;</span>
+                    <span class="star" data-value="3">&#9733;</span>
+                    <span class="star" data-value="4">&#9733;</span>
+                    <span class="star" data-value="5">&#9733;</span>
+                  </div>
+                  <input type="hidden" id="rating" name="rating" value="">
+            </h1>
+            <p class="p">Crispy | Savory | Tender | Seafood | Flavorful</p>
+            <button id="add-button">Add to My Menu Plan</button>
+        </div>
+        <div id="recipe">
+            <h2>Ingredients:</h2>
+            <ul>
+                <li>1 lb squid, cleaned and cut into rings</li>
+                <li>1 cup all-purpose flour</li>
+                <li>1 tsp salt</li>
+                <li>1/2 tsp black pepper</li>
+                <li>1/2 tsp paprika</li>
+                <li>1/4 tsp cayenne pepper</li>
+                <li>1 egg, beaten</li>
+                <li>1/2 cup milk</li>
+                <li>Vegetable oil, for frying</li>
+                <li>Lemon wedges, for serving</li>
+            </ul>
+            <hr>
+            <h2>Procedures:</h2>
+            <ol>
+                <li>Rinse the squid rings and pat them dry with paper towels.</li>
+                <li>In a shallow dish, mix together the flour, salt, black pepper, paprika, and cayenne pepper.</li>
+                <li>In a separate shallow dish, whisk together the beaten egg and milk.</li>
+                <li>Dip the squid rings into the egg mixture, coating them evenly.</li>
+                <li>Dredge the squid rings in the flour mixture, shaking off any excess.</li>
+                <li>Heat the vegetable oil in a deep fryer or large pot over medium-high heat until it reaches 375°F.</li>
+                <li>Carefully lower the coated squid rings into the hot oil using tongs or a slotted spoon. Fry in batches to avoid overcrowding the pot.</li>
+                <li>Fry for 2-3 minutes or until the calamares is golden brown and crispy.</li>
+                <li>Remove the calamares from the oil and place on a paper towel-lined plate to drain any excess oil.</li>
+                <li>Serve hot with lemon wedges for squeezing over the top.</li>
+            </ol>
+        </div>
+        <div>
+            <button id="download-button">Download PDF</button>
+        </div>
+        <form>
+            <label for="comment" class="size">Leave a comment:</label>
+            <textarea id="comment" name="comment" placeholder="Enter your comment here..."></textarea>
+            <button type="submit" id="submit">Submit</button>
+          </form>
+        <footer class="footer">
+            <div class="footer-content">
+                <p>&copy; My Cooking Book Philippines - All rights reserved.</p>
+                <ul class="footer-links">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

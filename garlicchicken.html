@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Garlic Chicken</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="food.css">
+        <link rel="stylesheet" href="responsive.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <a href="index.html"><img src="pic/logo.png" alt="Logo" class="logo"></a>
+            <div class="navbar-buttons">
+                <a href="index.html" class="navbar-button">Home</a>
+                <a href="login.html" class="navbar-button">My Menu Plan</a>
+            </div>
+        </nav>
+        <div class="bg">
+            <img src="pic/garlic chicken.jpg" alt="img">
+        </div>
+        <div>
+            <h1 class="style">
+                Garlic Chicken
+                <button id="like-button"><img src="pic/—Pngtree—vector like icon_4013523.png" alt="Like"></button>
+                <button id="dislike-button"><img src="pic/—Pngtree—dislike vector icon_4017390.png" alt="Dislike"></button>
+                <div class="rating">
+                    <span class="star" data-value="1">&#9733;</span>
+                    <span class="star" data-value="2">&#9733;</span>
+                    <span class="star" data-value="3">&#9733;</span>
+                    <span class="star" data-value="4">&#9733;</span>
+                    <span class="star" data-value="5">&#9733;</span>
+                  </div>
+                  <input type="hidden" id="rating" name="rating" value="">
+            </h1>
+            <p class="p">Savory | Aromatic | Flavorful | Tender | Juicy</p>
+            <button id="add-button">Add to My Menu Plan</button>
+        </div>
+        <div id="recipe">
+            <h2>Ingredients:</h2>
+            <ul>
+                <li>4 boneless, skinless chicken breasts</li>
+                <li>6 cloves garlic, minced</li>
+                <li>1/2 cup all-purpose flour</li>
+                <li>1 tsp salt</li>
+                <li>1/2 tsp black pepper</li>
+                <li>1/2 tsp paprika</li>
+                <li>1/4 tsp cayenne pepper</li>
+                <li>3 tbsp olive oil</li>
+                <li>1/4 cup chicken broth</li>
+                <li>1/4 cup white wine</li>
+                <li>2 tbsp butter</li>
+                <li>2 tbsp chopped fresh parsley, for garnish</li>
+            </ul>
+            <hr>
+            <h2>Procedures:</h2>
+            <ol>
+                <li>Rinse the chicken breasts and pat dry with paper towels. Cut each breast into 2-3 equal pieces.</li>
+                <li>In a shallow dish, mix together the flour, salt, black pepper, paprika, and cayenne pepper.</li>
+                <li>Coat the chicken pieces in the flour mixture, shaking off any excess.</li>
+                <li>Stir in the tomato paste, water, beef broth, liver spread, paprika, sugar, salt, and black pepper. Mix well and bring to a boil.</li>
+                <li>Heat the olive oil in a large skillet over medium-high heat. Add the chicken and cook for 4-5 minutes per side or until golden brown and cooked through.</li>
+                <li>Remove the chicken from the skillet and set aside.</li>
+                <li>Add the minced garlic to the skillet and cook for 1-2 minutes or until fragrant.</li>
+                <li>Pour in the chicken broth and white wine and scrape the bottom of the skillet with a wooden spoon to release any browned bits.</li>
+                <li>Bring the sauce to a simmer and cook for 2-3 minutes or until slightly reduced.</li>
+                <li>Add the butter to the skillet and stir until melted and well combined.</li>
+                <li>Return the chicken to the skillet and toss to coat in the garlic sauce.</li>
+                <li>Serve hot, garnished with chopped fresh parsley. Enjoy!</li>
+            </ol>
+        </div>
+        <div>
+            <button id="download-button">Download PDF</button>
+        </div>
+        <form>
+            <label for="comment" class="size">Leave a comment:</label>
+            <textarea id="comment" name="comment" placeholder="Enter your comment here..."></textarea>
+            <button type="submit" id="submit">Submit</button>
+          </form>
+        <footer class="footer">
+            <div class="footer-content">
+                <p>&copy; My Cooking Book Philippines - All rights reserved.</p>
+                <ul class="footer-links">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

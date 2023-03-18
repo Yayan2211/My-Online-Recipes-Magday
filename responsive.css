@@ -1,0 +1,55 @@
+/* Default styles for all devices */
+
+body {
+    font-size: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  
+  /* Styles for devices with a screen width of 768px or less */
+  
+  @media only screen and (max-width: 768px) {
+    body {
+      font-size: 14px;
+      max-width: 100%;
+      padding: 0 10px;
+    }
+  }
+  
+  /* Styles for devices with a screen width of 480px or less */
+  
+  @media only screen and (max-width: 480px) {
+    body {
+      font-size: 12px;
+      padding: 0 5px;
+    }
+  }
+
+  html {
+    zoom: reset; /* Reset the zoom to 100% by default */
+  }
+  
+  @media screen and (max-width: 1200px) {
+    html {
+      zoom: 80%; /* Set the zoom to 80% when the screen width is less than or equal to 1200px */
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    html {
+      zoom: 70%; /* Set the zoom to 70% when the screen width is less than or equal to 992px */
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    html {
+      zoom: 60%; /* Set the zoom to 60% when the screen width is less than or equal to 768px */
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    html {
+      zoom: 50%; /* Set the zoom to 50% when the screen width is less than or equal to 576px */
+    }
+  }
+  
